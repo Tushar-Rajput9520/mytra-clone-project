@@ -1,0 +1,22 @@
+/* *{
+    margin:0;
+    padding:0;e
+} */
+.pseudo{
+    height:20px;
+    width:100px;
+    border:2px solid red;
+    color:blue;
+    border-radius: 10px;
+    text-align:center;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: linear  ;
+    transition-delay: 0s;
+}
+.pseudo:hover{
+    border:3px solid blue;
+    color:red;
+    height:30px;
+    width:150px;
+}

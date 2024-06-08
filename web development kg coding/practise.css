@@ -1,0 +1,51 @@
+nav a{
+    text-decoration:none;
+    padding:40px;
+    color:red;
+}
+nav{
+    padding:5px;
+}
+*{
+    margin:0;
+    padding:0;
+}
+header{
+    background-color: #14f5c0;
+    height:30px;
+
+}
+.box{
+    width:100px;
+    height:100px;
+    background-color: #cd148c;
+    margin:5px;
+    display:inline-block;
+}
+#container{
+    width:600px;
+    height:500px;
+    border: 2px solid black;
+    margin:5px;
+    padding:5px;
+    background-color: #1ecbf6;
+    display:flex;
+    flex-wrap:wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    align-content: start    ;
+    
+   
+    
+}
+#box4{
+    position:fixed;
+    right:10px;
+}
+#box1{
+    float:left;
+}
+#box3{
+    float:right;
+}

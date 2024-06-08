@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container_outer{
+            width:90%;
+            height:25px;
+            position:relative;
+            left:10px;
+            border:2px solid black;
+            border-radius:20px;
+            background-color: #c4acac;
+        }
+        .contanier{
+            /* width:50%; */
+            height:100%;
+            border-radius:20px;
+            animation-direction:alternate-reverse;
+            animation:animation1 1s linear infinite;
+            background-color: #f01084;
+
+        }
+        @keyframes animation1{
+            0%{
+                width:0%;
+                
+
+            }
+            50%{
+                width:50%;
+                background-color: #da660e;
+            }
+            100%{
+                width:100%;
+                background-color: #18d12e;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container_outer">
+        <div class="contanier"></div>
+    </div>
+    
+</body>
+</html>
